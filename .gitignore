@@ -1,0 +1,5 @@
+# arquivos gerados quando o notebook roda
+dados/
+meu_modelo/
+.ipynb_checkpoints/
+__pycache__/
