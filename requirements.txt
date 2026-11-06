@@ -1,0 +1,5 @@
+pandas>=3.1
+matplotlib>=3.9
+tiktoken>=0.14
+tokenizers>=0.23
+transformers[torch]>=5.22
