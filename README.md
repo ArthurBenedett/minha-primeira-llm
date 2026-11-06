@@ -6,6 +6,8 @@ Comecei pelo básico (como transformar texto em número) e terminei treinando um
 
 Tudo está no notebook [`Minha_primeiraLLM.ipynb`](Minha_primeiraLLM.ipynb).
 
+O modelo treinado está publicado no Hugging Face: [ArthurBenedett/roberta-nietzsche-pt](https://huggingface.co/ArthurBenedett/roberta-nietzsche-pt). Dá pra testar direto no navegador.
+
 ## o que tem no notebook
 
 1. uma "cifra" que transforma letra em número (e quebra quando aparece letra que ela nunca viu)
@@ -46,7 +48,7 @@ Python 3 e Jupyter.
 pip install -r requirements.txt
 ```
 
-Depois é só abrir o notebook e rodar de cima pra baixo (*Restart & Run All*). O livro é baixado sozinho. As sementes são fixas, então o resultado se repete. No CPU o treino leva uns 40 minutos.
+Depois é só abrir o notebook e rodar de cima pra baixo (*Restart & Run All*). O livro é baixado sozinho. As sementes são fixas, então o resultado se repete. No CPU o treino leva uns 8 minutos (o early stopping para antes das 300 épocas).
 
 ## créditos
 
